@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bitflix</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrapper">
+    <header class="sidebar">
+        <a href="/" class="logo-link">
+            <img src="./img/logo.svg" alt="logo" />
+        </a>
+        <nav class="menu">
+            <ul>
+                <li class="menu-item"><a href="#" class="menu-link">Главная</a></li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link active">Триллер</a>
+                </li>
+                <li class="menu-item"><a href="#" class="menu-link">Комедия</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">...</a></li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Фантастика</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Избранное</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="toolbar">
+        <form class="form">
+            <div class="search">
+                <input
+                        type="text"
+                        placeholder="Поиск по каталогу..."
+                        class="catalog-search"
+                />
+                <img src="./img/lupa.svg" alt="lupa" class="search-icon" />
+            </div>
+            <button type="submit" class="btn_search">Искать</button>
+            <button class="add-films">Добавить фильм</button>
+        </form>
+    </section>
+
+    <section class="content-detail">
+        <div class="movie-detail">
+            <!-- Шапка -->
+            <div class="detail-title">
+                <h1 class="title-detail">
+                    Головоломка (2015)
+                    <img src="./img/icon (1).svg" alt="icon" class="icon" />
+                </h1>
+                <h4 class="subtitle-detail">
+                    Inside Out
+                    <img
+                            src="./img/Возрастное ограничение.svg"
+                            alt="6+"
+                            class="age-limit"
+                    />
+                </h4>
+            </div>
+
+            <div class="detail-info">
+                <!-- Фотка слева -->
+                <div class="inside-out-img">
+                    <img src="./img/превью.svg" alt="Inside Out" class="poster" />
+                </div>
+
+                <!-- Инфа справа -->
+                <div class="info-film-right">
+                    <div class="rating">
+                        <img src="./img/Рейтинг.svg" alt="Рейтинг" />
+                    </div>
+                    <h3 class="about-film">О фильме</h3>
+                    <div class="main-info-film">
+                        <div class="film-line">
+                            <span class="film-line-span">Год производства:</span>
+                            <span class="film-line-span-right">2012</span>
+                        </div>
+
+                        <div class="film-line">
+                            <span class="film-line-span">Режиссер:</span>
+                            <span class="film-line-span-right"
+                            >Пит Докстер, Роналдо Дель Кармен</span
+                            >
+                        </div>
+
+                        <div class="film-line">
+                            <span class="film-line-span">В главных ролях:</span>
+                            <span class="film-line-span-right"
+                            >Эми Полер, Филлис Смит, Ричард Кайнд, Билл Хейдер, Льюис
+                    Блэк, Минди Кейлинг
+                  </span>
+                        </div>
+                    </div>
+                    <h3 class="description-detail">Описание</h3>
+                    <p class="movie-description-detail">
+                        Райли — обычная 11-летняя школьница, и, как у каждого из нас, ее
+                        поведение определяют пять базовых эмоций: Радость, Печаль,
+                        Страх, Гнев и Брезгливость. Эмоции живут в сознании девочки и
+                        каждый день помогают ей справляться с проблемами, руководя всеми
+                        ее поступками. До поры до времени эмоции живут дружно, но вдруг
+                        оказывается, что Райли и ее родителям предстоит переезд из
+                        небольшого уютного городка в шумный и людный мегаполис. Каждая
+                        из эмоций считает, что именно она лучше прочих знает, что нужно
+                        делать в этой непростой ситуации, и в голове у девочки наступает
+                        полная неразбериха. Чтобы наладить жизнь в большом городе,
+                        освоиться в новой школе и подружиться с одноклассниками, эмоциям
+                        Райли предстоит снова научиться работать сообща.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
